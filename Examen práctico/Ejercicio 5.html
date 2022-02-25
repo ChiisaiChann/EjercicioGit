@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5</title>
+
+
+</head>
+<body>
+<script>
+
+    //Ejercicio 5
+
+    function Persona(nombre, edad, calificación){
+        this.nombre=  nombre;
+        this.edad=    edad;
+        this.calificación=  calificación;
+        this.metodo1= function obtDetalles(){
+            document.write("Nombre: " + this.nombre + "<br>" +
+                "Edad: " + this.edad + "<br>" +
+                "Calificación: " + Math.floor(Math.random()*10) + "<br>");
+        };
+    }
+    let ficha1 = new Persona("Harry","11","8");
+    ficha1.metodo1();
+
+    let ficha2 = new Persona("Ron","11","5");
+    ficha2.metodo1();
+
+    let ficha3 = new Persona("Hermione","12","10");
+    ficha3.metodo1();
+
+    let ficha4 = new Persona("Draco","11","10");
+    ficha4.metodo1();
+
+    let ficha5 = new Persona("Neville","12","3");
+    ficha5.metodo1();
+
+    let ficha6 = new Persona("Pansy","10","9");
+    ficha6.metodo1();
+
+    //Objeto estudiante
+    function Estudiante(curso, grupo){
+        this.curso=   curso;
+        this.grupo=   grupo;
+        this.metodo2= function registrar(){
+            document.write("Curso: " + this.curso + "<br>" +
+                "Grupo: " + this.grupo + "<br>");
+        };
+    }
+    let ficha7 = new Estudiante("Programación","Power");
+    ficha7.metodo2();
+
+    //Objeto Profesor
+    function Profesor(asignatura, nivel){
+        this.asignatura=  asignatura;
+        this.nivel=       nivel;
+        this.metodo3=     function asignar(){
+            document.write("Asignatura: " + this.asignatura + "<br>" +
+                "Nivel: " + this.nivel+ "<br>");
+        };
+    }
+    let ficha8 = new Profesor("JS","Básico");
+    ficha8.metodo3();
+
+    function Grupo(profesor, promedio, estudiantes){
+        this.profesor =  profesor;
+        this.promedio = promedio;
+        this.estudiantes = estudiantes;
+        this.metodo4=     function asignar(){
+            document.write("Profesor: " + this.profesor + "<br>" +
+                "Promedio: " + this.promedio + "<br>" + "Estudiantes: " + this.estudiantes
+                + "<br>");
+
+        };
+    }
+    let ficha9 = new Grupo("Severus Snape","Reprobado", "15");
+    ficha9.metodo4();
+
+
+</script>
+</body>
+</html>

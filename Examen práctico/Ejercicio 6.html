@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+<script>
+
+    //Ejercicio 6
+    /*Bonus: Escribe una function que genere todas las posibles combinaciones con las letras de
+dicho string. (La entrada la puede limitar a 3 letras) (15 puntos)
+Ejemplo entrada : casa
+Ejemplo salida: c,ca,cas,casa,a, ac, as,…
+     */
+
+    const obtenerCombinaciones = palabra => {
+        const combinaciones = [];
+        for (let i = 0; i < palabra.length; i++) {
+            // Primero la letra actual
+            let combinacion = palabra.charAt(i);
+            combinaciones.push(combinacion);
+            for (let j = i + 1; j < palabra.length; j++) {
+                combinacion += palabra.charAt(j);
+                // Y luego lo de la primera letra con todas las que le siguen hasta el final
+                combinaciones.push(combinacion);
+            }
+        }
+        return combinaciones;
+    };
+    const palabras = ["ajo"];
+    for (const palabra of palabras) {
+        const combinaciones = obtenerCombinaciones(palabra);
+        console.log("Las combinaciones de '%s' son:", palabra);
+        for (const combinacion of combinaciones) {
+            console.log(combinacion);
+        }
+    }
+
+</script>
+</body>
+</html>
