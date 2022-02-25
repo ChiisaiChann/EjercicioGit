@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+<script>
+    //Ejercicio 4
+    /*4.- Definir una función determine si la cadena de texto que se le pasa como parámetro
+    es un palíndromo, es decir, si se lee de la misma forma desde la izquierda y desde la
+    derecha. Ejemplo de palíndromo complejo: “La ruta nos aporto otro paso natural”. (10pts)
+     */
+    function palindromo(str) {
+        const strReversed = str.split("").reverse().join("");
+
+        return strReversed === str ? "es palindromo" : "no es palindromo";
+    }
+    console.log(palindromo("reconocer")); // es palindromo
+    console.log(palindromo("ajo")); // no es palindromo
+    console.log(palindromo("rotomotor")); // es palindromo
+</script>
+</body>
+</html>
