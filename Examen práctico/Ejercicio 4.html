@@ -12,13 +12,14 @@
     derecha. Ejemplo de palíndromo complejo: “La ruta nos aporto otro paso natural”. (10pts)
      */
     function palindromo(str) {
-        const strReversed = str.split("").reverse().join("");
+        let strReversed = str.split("").reverse().join("");
 
         return strReversed === str ? "es palindromo" : "no es palindromo";
     }
     console.log(palindromo("reconocer")); // es palindromo
     console.log(palindromo("ajo")); // no es palindromo
     console.log(palindromo("rotomotor")); // es palindromo
+
 </script>
 </body>
 </html>

@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+  font-family: "Hind", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #002b39;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-image: url('../IMG/Grupo_9213@2x.webp');
+  background-size: 100%;
+  padding-bottom: 120px;
+}
+.venn {
+  margin-top: 50px;
+  width: 105px;
+}
+h1 {
+  font-size: 2.6em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  padding: 0;
+}
+.parrafo_header {
+  font-size: 1.1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  line-height: 1.2em;
+}
+.link_parrafo_header {
+  color: #1489ff;
+  font-weight: 600;
+}
+.boton_qliao {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 255px;
+    height: 55px;
+    background: rgb(1,172,254);
+    background: linear-gradient(180deg, rgba(1,172,254,1) 0%, rgba(9,126,239,1) 100%);
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.boton_qliao:hover {
+    cursor: pointer;
+    background: white;
+    background: linear-gradient(180deg, white 0%, white 100%);
+    color: #1489ff;
+    border-color: #1489ff;
+    border: 1px solid;
+}
+.tarjeta {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 690px;
+  height: 270px;
+  text-align: left;
+  border: 1px solid #91b5d7;
+  border-radius: 10px;
+  box-shadow: 0px 8px 10px 4px rgba(0, 0, 0, 0.2);
+}
+.imagen_perfil {
+  display: inline-block;
+  max-height: 260px;
+}
+.perfil_tarjeta {
+  display: inline-block;
+}
+.info_tarjeta {
+  width: 420px;
+  vertical-align: top;
+  display: inline-block;
+  font-weight: 300;
+}
+h3 {
+    font-weight: 500;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+h4 {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-top: 0px;
+    line-height: 10px;
+    color: #1489ff;
+}
+.info_tarjeta img {
+    float: right;
+    max-height: 20px;
+}
+#herramientas h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 30%;
+    margin-left: 30%;
+    line-height: 1em;
+}
+.herramientas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1110px;
+  height: 430px;
+  background-color: white;
+}
+.tarjeta_herramientas {
+  display: inline-block;
+  background-color: white;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 1px #dee4eb;
+  margin-left: 30px;
+}
+.tarjeta_herramientas img {
+  width: 100%;
+}
+#procesos {
+    padding-bottom: 80px;
+}
+#procesos h1 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right: 30%;
+    margin-left: 30%;
+    line-height: 1em;
+}
+.procesos {
+  background-image: url(../IMG/Rectángulo_8199@2x.webp);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 870px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 35%;
+  background-size: 75%;
+  font-size: 1.3em;
+}
+.procesos img {
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info_procesos {
+  width: 30%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.img_numero {
+  height: 25px;
+}
+.img_logo {
+  width: 200px;
+}
+/* 
+a
+a
+a
+a
+a
+a
+a
+*/
+.calugon {
+  background-color: darkgreen;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 930px;
+}
+.caluguitas {
+  background-color: white;
+  width: 280px;
+  height: 130px;
+}
+.caluguitas img {
+    height: 40px;
+}
+#plataforma {
+  background-image: url('../IMG/Enmascarar_grupo_259@2x.webp');
+  background-size: 100%;
+}
