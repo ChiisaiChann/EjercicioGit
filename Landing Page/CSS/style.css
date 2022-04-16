@@ -74,6 +74,12 @@ body {
     background-image: none;
     grid-column: auto;
     max-width: none;
+    justify-items: center;
+    background-image: url('https://comunidad.venntors.com/wp-content/uploads/2021/12/Sustraccion-11.svg');
+    background-size: 100%;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-position: 0% 75%;
   }
   #header h1 {
     display: grid;
@@ -163,13 +169,6 @@ h4 {
   text-align: left;
 }
 @media screen and (min-width:240px) and (max-width:763px) {
-  /*fondo_tarjeta {
-    background-image: url("https://comunidad.venntors.com/wp-content/uploads/2021/12/Sustraccion-11.svg");
-    display: grid;
-    width: 100%;
-    z-index: 1;
-    grid-row: 2;
-  }*/
   .perfil_tarjeta {
     z-index: 2;
   }
@@ -523,6 +522,28 @@ h4 {
 .boton_qliao_procesos_media {
   display: none;
 }
+.boton_qliao_procesos {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 255px;
+  height: 55px;
+  background: rgb(1,172,254);
+  background: linear-gradient(180deg, rgba(1,172,254,1) 0%, rgba(9,126,239,1) 100%);
+  color: white;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.boton_qliao_procesos:hover {
+  cursor: pointer;
+  background: white;
+  background: linear-gradient(180deg, white 0%, white 100%);
+  color: #1489ff;
+  border-color: #1489ff;
+  border: 1px solid;
+}
 @media screen and (min-width:240px) and (max-width:980px) {
   #procesos {
     display: grid;
@@ -679,7 +700,10 @@ h4 {
     cursor: pointer;
     width: 35px;
     height: 35px;
+    background-size: 100%;
     background-image: url("../IMG/c_01_white.png");
+    border: none;
+    background-color: transparent;
   }
   .boton_01_media:hover {
     background-image: url("../IMG/c_01_blue.png");
@@ -688,7 +712,10 @@ h4 {
     cursor: pointer;
     width: 35px;
     height: 35px;
+    background-size: 100%;
     background-image: url("../IMG/c_02_white.png");
+    border: none;
+    background-color: transparent;
   }
   .boton_02_media:hover {
     background-image: url("../IMG/c_02_blue.png");
@@ -697,7 +724,10 @@ h4 {
     cursor: pointer;
     width: 35px;
     height: 35px;
+    background-size: 100%;
     background-image: url("../IMG/c_03_white.png");
+    border: none;
+    background-color: transparent;
   }
   .boton_03_media:hover {
     background-image: url("../IMG/c_03_blue.png");
@@ -754,6 +784,7 @@ Aquí va el media
   padding-top: 150px;
   padding-bottom: 15px;
   font-size: 2.55em;
+  width: 450px;
 }
 @media screen and (min-width:1007px) and (max-width:1202px) {
   .plataforma_h1 {
